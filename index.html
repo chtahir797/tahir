@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signin</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <style>
+        /* global */
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p,
+        img,
+        ul,
+        li,
+        div,
+        a,
+        ol,
+        form,
+        table,
+        button {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            background-color: rgba(0, 213, 255, 0.921);
+        }
+
+        .child {
+            background-color: white;
+            position: absolute;
+            top: 20%;
+            left: 38%;
+            width: 25%;
+            border-radius: 10px;
+        }
+
+        .login p {
+            font-family: 'Open Sans', sans-serif;
+            font-weight: bold;
+            margin: 30px 0px;
+        }
+
+        .form input[type=email] {
+            width: 80%;
+            padding: 10px 10px;
+            border-radius: 5px;
+        }
+
+        .form input[type=password] {
+            width: 80%;
+            padding: 10px 10px;
+            border-radius: 5px;
+        }
+
+        .form {
+            position: relative;
+        }
+
+        .email label {
+            position: absolute;
+            top: 8%;
+            left: 10%;
+            background-color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            color: deepskyblue;
+        }
+
+        .password label {
+            position: absolute;
+            top: 59%;
+            left: 10%;
+            background-color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            color: deepskyblue;
+        }
+
+        .forget {
+            margin: 18px 0px;
+        }
+
+        .forget a {
+            color: deepskyblue;
+            padding: 26px;
+
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .btn {
+            background-color: deepskyblue;
+            border: 0px;
+            color: white;
+            padding: 15px 144px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .signup a {
+            color: deepskyblue;
+        }
+
+        .signup {
+            margin: 23px 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="child">
+        <center>
+            <div class="logo">
+                <img src="images/logo.jpeg" alt="" srcset="">
+            </div>
+            <div class="login">
+                <p>Please Login</p>
+            </div>
+            <div class="form">
+                <form action="">
+                    <div class="email"><label for="email">Email address</label><br>
+                        <input type="email" id="fname" name="fname" placeholder="abc@xyzmail.com"><br>
+                    </div>
+                    <div class="password"><label for="password">Password</label><br>
+                        <input type="password" id="lname" name="lname" placeholder="*********">
+                    </div>
+                </form>
+        </center>
+        <div class="forget">
+            <a href="http://">Forget password?</a>
+        </div>
+        <center>
+            <div class="button">
+                <button class="btn">Signin</button>
+            </div>
+            <div class="signup">
+                <p>Don't have an account? <a href="http://">Signup</a></p>
+            </div>
+        </center>
+    </div>
+    </div>
+
+</body>
+
+</html>
